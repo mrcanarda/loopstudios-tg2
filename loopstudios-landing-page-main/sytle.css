@@ -1,0 +1,188 @@
+/* font-family: 'Alata', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+/***********************
+********* HERO *******/
+
+.header {
+    background: url(images/desktop/image-hero.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap: 14rem;
+    padding: 3rem 5.4rem;
+    margin-bottom: 6rem;
+}
+
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  font-family: 'Alata', sans-serif;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.hero h1 {
+width: 100%;
+font-size: 3rem;
+font-family: 'Josefin Sans', sans-serif;
+color: #fff;
+font-weight: 300;
+border: solid white;
+padding: 2rem;
+}
+
+/***********************
+********* HOW IT WORK *******/
+
+.how-it-work {
+  padding: 3rem 5.4rem;
+}
+
+.how-it-work-exc {
+  position: relative;
+  top: 39%;
+  right: 25%;
+  background-color: #fff;
+  height: 19rem;
+  padding-top: 6rem;
+}
+
+.how-it-work-exc h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.how-it-work-exc p {
+  text-align: center;
+  font-family: 'Alata', sans-serif; 
+  font-weight: 300;
+  font-size: 1rem;
+  color: hsl(0, 0%, 55%);
+}
+
+/***********************
+********* OUR CREATIONS *******/
+
+.section-our-creations {
+  padding: 3rem 5.4rem;
+  gap: 44rem;
+}
+
+.our-creations-ein {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.our-creations-link:link,
+.our-creations-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  border: solid black;
+  padding: .5rem 2.2rem;
+}
+
+.our-creations-link:hover,
+.our-creations-link:active {
+  color: #fff;
+  background-color: black;
+}
+
+/***********************
+********* IMG *******/
+
+.section-img {
+  padding: 3rem 5.4rem;
+  row-gap: 1rem;
+  gap: 2rem;
+  width: 84.4rem;
+}
+
+.imgg {
+  background: url(images/desktop/image-deep-earth.jpg);
+  height: 28rem;
+  width: 14rem;
+  
+}
+
+.imgg h1 {
+  position: relative;
+  top: 84%;
+  left: 10%;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.4rem;
+  width: 50%;
+  text-align: start;
+}
+
+.night {
+background: url(images/desktop/image-night-arcade.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.soccer {
+background:url(images/desktop/image-soccer-team.jpg)
+background-position: center;
+background-size: cover;
+}
+
+.the {
+background: url(images/desktop/image-grid.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.from {
+background: url(images/desktop/image-from-above.jpg)
+background-position: center;
+background-size: cover;
+}
+
+.rocket {
+background: url(images/desktop/image-pocket-borealis.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.curi {
+background: url(images/desktop/image-curiosity.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.makeit {
+background: url(images/desktop/image-fisheye.jpg);
+background-position: center;
+background-size: cover;
+}
